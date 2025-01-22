@@ -16,6 +16,11 @@ public class RecipeManager
         recipes.Add(recipe);
     }
     
+    public void RemoveRecipe(Recipe recipe)
+    {
+        recipes.Remove(recipe);
+    }
+    
     public ObservableCollection<Recipe> GetRecipes()
     {
         return recipes;

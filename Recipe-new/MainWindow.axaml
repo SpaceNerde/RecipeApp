@@ -4,10 +4,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Recipe_new.MainWindow"
-        Title="Recipe_new" Height="600" Width="400">
+        Title="Recipe_new" Height="700" Width="400">
         
         <Grid ShowGridLines="True">
                 <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
                         <RowDefinition Height="Auto"></RowDefinition>
                         <RowDefinition Height="Auto"></RowDefinition>
                 </Grid.RowDefinitions>
@@ -19,5 +20,6 @@
                 
                 <ListBox Grid.Row="0" Grid.Column="0" Width="400" Height="500" Name="RecipeList" VerticalAlignment="Center" HorizontalAlignment="Center" DoubleTapped="RecipeList_OnDoubleTapped"/>
                 <Button Grid.Row="1" Grid.Column="0" Width="400" Height="100" Content="Add Recipe" Name="AddRecipeButton" VerticalAlignment="Top" HorizontalAlignment="Center" Click="AddRecipeButton_OnClick"/>
+                <Button Grid.Row="2" Grid.Column="0" Width="400" Height="100" Content="Remove Recipe" Name="RemoveRecipeButton" VerticalAlignment="Top" HorizontalAlignment="Center" Click="RemoveRecipeButton_OnClick"/>
         </Grid>
 </Window>

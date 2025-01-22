@@ -35,4 +35,9 @@ public partial class MainWindow : Window
         
         recipeWindow.Show();
     }
+
+    private void RemoveRecipeButton_OnClick(object? sender, RoutedEventArgs e)
+    {
+        globalManager.GetRecipeManager().RemoveRecipe(RecipeList.SelectedItem as Recipe);
+    }
 }
