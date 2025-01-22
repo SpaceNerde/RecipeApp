@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe-new", "Recipe-new\Recipe-new.csproj", "{3FEEC3B3-3E6D-44C1-9955-42F854B5209B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FEEC3B3-3E6D-44C1-9955-42F854B5209B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEEC3B3-3E6D-44C1-9955-42F854B5209B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEEC3B3-3E6D-44C1-9955-42F854B5209B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEEC3B3-3E6D-44C1-9955-42F854B5209B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
