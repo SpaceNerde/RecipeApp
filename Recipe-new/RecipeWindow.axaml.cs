@@ -15,7 +15,14 @@ public partial class RecipeWindow : Window
         InitializeComponent();
 
         RecipeNameLabel.Content = recipe.name;
+        CatergoryLabel.Content = recipe.kategorie;
+        
         IngredientListBox.ItemsSource = recipe.ingredients;
         IngredientListBox.DisplayMemberBinding = new Binding("ingredient_name");
+        
+        WorkStepListBox.ItemsSource = recipe.WorkSteps;
+        WorkStepListBox.DisplayMemberBinding = new Binding("work_step_name");
+        
+        // it is 11pm and my brain is not braining anymore pls send help
     }
 }

@@ -41,3 +41,7 @@ public partial class MainWindow : Window
         globalManager.GetRecipeManager().RemoveRecipe(RecipeList.SelectedItem as Recipe);
     }
 }
+
+// TODO:
+// - KATERGORIEN UND SCHRITTE 
+// - Speiecher in xml

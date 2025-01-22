@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Recipe_new.RecipeWindow"
-        Title="Recipe_new" Height="400" Width="800">
+        Title="Recipe_new" Height="900" Width="800">
         
         <Grid ShowGridLines="True">
                 <Grid.RowDefinitions>
@@ -18,7 +18,9 @@
                         <ColumnDefinition Width="Auto"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 
-                <Label Grid.Row="0" Name="RecipeNameLabel"/>
-                <ListBox Grid.Row="1" Name="IngredientListBox"/>
+                <Label Grid.Row="0" Grid.Column="0" Name="RecipeNameLabel"/>
+                <Label Grid.Row="0" Grid.Column="1" Name="CatergoryLabel"/>
+                <ListBox Grid.Row="1" Grid.ColumnSpan="2" Height="400" Width="400" Name="IngredientListBox"/>
+                <ListBox Grid.Row="2" Grid.ColumnSpan="2" Height="400" Width="400" Name="WorkStepListBox"/>
         </Grid>
 </Window>
